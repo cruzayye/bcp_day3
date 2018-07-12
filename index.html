@@ -12,81 +12,66 @@
     <script>
     console.log("hellow world");
 
-   /* var x = 7;
-    var y = 12;
-    var sum = x + y;
-
-    console.log('the sum is ',sum);
-    */
 
 
-   /* if(x % 2 ===0){
-        console.log('x is even');
-    }
-    else{
-        console.log('x is odd');
-    }*/
+    //NOTES DURING CLASS 7/11*********************************************
+        //conditional control flow
 
-    //4loops
-    //1. intialize
-    //2. condition
-    //3. postloop acton
-    
-    
-    /*var x = 100;
-    
-    for(var i=0; i<x; i++){
-        console.log('insde loop, i is', i)
+        var x = prompt('pick a number');
+        if(x > 100) {
+            console.log('wow, that\'s a big number!')
+        }
+        else if(x % 2 === 0) {
+            console.log('x is even');
+        }
+        else {
+            console.log('x is odd');
+        }
 
-    }*/
+        //FIZZ BUZZ LOOPING
 
- /*   var x = 100;
-  //log from 0 to 100 ( log 0 to 100 but log fizz if number divisible by 3 
-  //log buzz if number divisible by 5)
+              // CHALLENGE! 
+        // log even numbers up to 100
+        var x = 25; //prompt('pick a number');
+        // 1 - initialization
+        // 2 - condition
+        // 3 - post loop action (go back to 2)
+
+        //log from 0 to 100 ( log 0 to 100 but log fizz if number divisible by 3 
+        //log buzz if number divisible by 5)
+        
+        for(var i = 0; i < x; i++) {
+            if(i % 3 === 0 && i % 5 == 0) {
+                console.log('fizzbuzz');
+            }
+            else if(i % 3 === 0) {
+                console.log('fizz');
+            }
+            else if(i % 5 === 0) {
+                console.log('buzz');
+            }
+            else {
+                console.log(i);
+            }
+        }
 
 
-  for( var i = 0; i<=x; i++) {
-        if( i % 2 === 0) {
+        //built in inputs 
+        var promptValue = prompt('what is your name?');
+        var confirmValue = confirm('is it safe?');
+        alert('danger!');
+        console.log('prompt', promptValue);
+        console.log('confirm', confirmValue);
+
+        
+
+        //while loop
+        var i = 0;
+        while(i < 100) {
             console.log(i);
-        } 
-        
-    }
-//from 100 to 0
-    for( var i = 0; i<=x; i--) {
-        console.log(i);
-      
-        
-    }
-
-//fizz buzz
-for( var i = 0; i<=x; i++) {
-        if( i% 3 === 0) {
-            console.log('fizz');
-        
+            i++;
         }
-        else if (i % ===5){
-            console.log ('buzz')
-        }
-        
-    }
-    */
 
-   /* var value = prompt('what is your name');
-
-    var confrimvalue = confirm('is it safe');
-
-    alert('danger');
-    */
-
-    /*
-    while(!confirm('is it safe?')){
-
-    }
-
-    alert('glad its safe')
-    */
-
-   
 
 
     
